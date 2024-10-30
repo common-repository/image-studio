@@ -1,0 +1,123 @@
+.tw-bs input[type=checkbox] {
+	width:15px !important;
+	height:15px !important;
+}
+.tw-bs input[type=radio]{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 10px !important;
+}
+.image_preview{
+	
+	overflow: hidden;
+}
+.image_preview img{
+	width:150px;
+	float:left;
+	margin-right:10px;
+}
+.btn-xsm{
+	font-size:12px !important;
+	margin:0px 10px 0px 5px;
+	padding: 0.1rem 0.3rem !important;
+}
+.image_preview_title{
+	font-size:15px;
+	text-align:left;
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.tw-bs4 label {
+    font-weight:500;
+}
+input.jscolor{
+	background-image: url(htmlcolors.gif) no-repeat scroll 7px 7px !important;
+	padding-left:30px;
+}
+.abs_right{
+	position:absolute;
+	top: 3px;
+    right: 3px;
+}
+.list_name{
+	width:100px;
+	display:inline-block;
+}
+.custom_loader{
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	background:rgba(255, 255 , 255, 0.5);
+	z-index:100000;
+	background-image: url(loader.gif);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.ajax_img_preview{
+	text-align:center;
+}
+.ajax_img_preview .facebook_dyn_preview{
+	max-width: 400px;
+    margin: 10px auto;
+	
+}
+.gray_big_box{
+	padding:10px;
+	background:#efefef;
+}
+.preview_block{
+	border: 2px dashed #ccc;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.preview_block img{
+	width:100%;
+}
+.generate_block{
+	
+    padding: 10px;
+    margin: 10px 0px;
+}
+.btngrp i{
+	color:#979797;
+	
+}
+.btngrp img{
+	height:16px;
+}
+.tw-bs4 .big_input_block label{
+	display:block;
+	
+}
+
+.big_input_block label{
+	display:block;
+	font-weight:bold;
+}
+.big_input_block select{
+	width:100%;
+}
+.ov_hidden{
+	overflow:hidden;
+}
+.col-6-custom{
+	width:100% !important;
+}
+@media screen and (min-width: 1600px){
+	.col-6-custom{
+		width:45% !important;
+		margin-right:5%;
+		float:left;
+	}
+}
+@media screen and (max-width: 1100px){
+	.col_100_1100{
+		width: 100% !important;
+		display: block;
+		max-width: 100% !important;
+		flex: none !important;
+		margin-bottom: 15px;
+	}
+}
